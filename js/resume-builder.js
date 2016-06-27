@@ -79,7 +79,6 @@
 //
 //
 // });
-$(document).ready(function(){
 
   var work = {
     "jobs": [
@@ -198,6 +197,3 @@ $(document).ready(function(){
       "url":
     ]
   },
-
-
-});
