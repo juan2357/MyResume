@@ -29,6 +29,7 @@ $( document ).ready(function() {
                 'Bootstrap',
                 'Github']
 
+  // object literal
   var bio = {
     "name": "Juan Perez",
     "role": "Full Stack Web Developer",
