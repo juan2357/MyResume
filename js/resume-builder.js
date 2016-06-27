@@ -57,9 +57,24 @@ $( document ).ready(function() {
   education["city"] = "Boca Raton";
   education["years"] = "2016-2018";
 
-  $("#work").append(work["position"]);
-  $("#education").append(education.school);
+  // $("#work").append(work["position"]);
+  // $("#education").append(education.school);
 
+  // JSON
+  var education = {
+    "schools": [
+      {
+        "name": "FAU",
+        "city": "Boca Raton",
+        "major": "Computer Science"
+      },
+      {
+        "name": "Udacity",
+        "city": "Weston",
+        "major": "FEND"
+      }
+    ]
+  }
 
 
 });
