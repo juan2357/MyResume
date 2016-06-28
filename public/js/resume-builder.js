@@ -356,10 +356,6 @@
       var formattedDates = HTMLschoolDates.replace
         ("%data%", education.schools[school].dates);
       $(".education-entry:last").append(formattedDates);
-
-      var formattedMajor = HTMLschoolMajor.replace
-        ("%data%", education.schools[school].major);
-      $(".education-entry-entry:last").append(formattedMajor);
     }
   };
 
