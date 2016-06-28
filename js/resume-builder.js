@@ -288,5 +288,5 @@ function displayWork() {
       var y = loc.pageY;
 
 
-      console.log(loc);
+      logClicks(x, y);
     });
