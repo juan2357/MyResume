@@ -86,7 +86,7 @@
         "employer": "Wyncode Academy",
         "title": "Full-Stack Web Developer",
         "location": "Fort Lauderdale, FL",
-        "dates": "2016",
+        "dates": "Spring 2016",
         "description": "- Pitch Day Winner. <br> - Developed code using Ruby, Rails, Javascript, jQuery, HTML and CSS. <br> - Executed code using Github, Sinatra, Materialize, and Bootstrap.<br>- Collaborated with classmates to build complex applications.<br>- Built and created a sensor application with Ruby on Rails, that utilized a Raspberry Pi to load temperature, humidity, and other types of data.",
       },
       {
@@ -107,7 +107,7 @@
         "employer": "Charter Schools USA",
         "title": "Elementary School Teacher",
         "location": "Fort Lauderdale, FL",
-        "dates": "2012",
+        "dates": "Fall 2012",
         "description": "- Served as the Science Fair Coordinator.<br>- Served as the Science, Technology, Engineering, Math Club Faculty Advisor. <br>- Served on grant committee.<br>- Effectively utilized C.H.A.M.P.S classroom management techniques.<br>- Adapted lessons to accommodate ESE students.<br>- Accommodated instruction to assist low level learners<br>- Created and providing enrichment activities to gifted high level learners."
       },
       {
@@ -199,14 +199,14 @@
 
   var formattedName = HTMLheaderName.replace("%data%", bio.name);
   $("#header").append(formattedName);
+
   var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
   $("#header").append(formattedRole);
 
 
 
-  // for(contact in bio.contacts) {
+
   //   $("#topContacts").append(HTMLcontactGeneric);
-  //
   //   var formattedMobile = HTMLmobile.replace
   //     ("%data%", bio.contacts[0]);
   //   $(".flex-item:last").append(formattedMobile);
@@ -217,8 +217,6 @@
   //   ("%data%", bio.comtacts[contact].linkedin);
   // var formatttedGitHub = HTMLgithub.replace
   //   ("%data%", bio.contacts[contact].Github);
-
-
 
   // if(bio.skills.length > 0) {
   //   $("#header").append(HTMLskillsStart);
@@ -277,16 +275,35 @@ function displayWork() {
       ("%data%", work.jobs[job].description);
     $(".work-entry:last").append(formattedDescription);
 
-
   }
 };
     displayWork();
-
 
     $(document).click(function(loc) {
       var x = loc.pageX;
       var y = loc.pageY;
 
-
       logClicks(x, y);
     });
+    //
+    // function locationizer(work_obj) {
+    //   var locationArray = [];
+    //
+    //   for (job in work_obj.jobs) {
+    //     var newlocation = work_obj.jobs[job].location;
+    //     locationArray.push(newlocation);
+    //   }
+    //   return locationArray;
+    // };
+    //
+    // console.log(locationizer(work));
+    function inName(name) {
+      name = name.trim().split(" ");
+      name[1] = name[1].toUpperCase();
+      name[0] = name[0].slice(0,1).toUpperCase() +
+        name[0].slice(1).toLowerCase();
+
+      return name[0] +" "+name[1];
+    }
+
+    $("#main").append(internationalizeButton);
