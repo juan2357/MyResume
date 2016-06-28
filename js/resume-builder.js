@@ -256,7 +256,7 @@ function displayProjects() {
 
     var formattedTitle = HTMLprojectTitle.replace
       ("%data%", projects.projects[project].title);
-    $(".project-entry:last").append(formattedTitle);
+
 
     var formattedDates = HTMLprojectDates.replace
       ("%data%", projects.projects[project].dates);
@@ -338,12 +338,14 @@ var education = {
 
 
 
-  $(document).click(function(loc) {
-    var x = loc.pageX;
-    var y = loc.pageY;
+$(document).click(function(loc) {
+  var x = loc.pageX;
+  var y = loc.pageY;
 
-    logClicks(x, y);
-  });
+  logClicks(x, y);
+});
+
+$("#mapDiv").append(googleMap);
     //
     // function locationizer(work_obj) {
     //   var locationArray = [];
