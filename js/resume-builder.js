@@ -82,7 +82,7 @@
   var bio = {
     "name": "Juan Perez",
     "role": "Full Stack Web Developer",
-    "welcome": "Welcome to my resume page. Here is a culmination of my skills knowladge and expertise.",
+    "welcome": "Welcome to my resume page. Here is a culmination of my skills knowladge and expertise. (UNDER CONSTRUCTION, 6/28/16)",
     "mobile": "754-300-6399",
     "email": "juanfperez@me.com",
     "Github": "juan2357",
@@ -303,32 +303,28 @@
       {
         "name": "Florida Atlantic University",
         "location": "Boca Raton, FL",
-        "degree": "Master's",
-        "major": "Elementary",
-        "dates": "2009-2012"
+        "degree": "B.S., Computer Science",
+        "dates": "2016-2018"
         // "url":
       },
       {
         "name": "Wyncode Academy",
         "location": "Fort Lauderdale, FL",
-        "degree": "Certificate",
-        "major": "Full Stack Web Development",
+        "degree": "Certificate, Full Stack Web Development",
         "dates": "2016"
         // "url":
       },
       {
         "name": "Florida Atlantic University",
         "location": "Boca Raton, FL",
-        "degree": "Bachelor of Science",
-        "major": "Computer Science",
-        "dates": "2016-2018"
+        "degree": "Master's Education",
+        "dates": "2009-2012"
         // "url":
       },
       {
         "name": "Chapman University",
         "location": "San Diego, CA",
-        "degree": "Bachelor of Arts",
-        "major": "Social Science",
+        "degree": "B.A., Social Science",
         "dates": "1999-2007"
         // "url":
       }
@@ -353,7 +349,7 @@
         ("%data%", education.schools[school].location);
       $(".education-entry:last").append(formattedLocation);
 
-      var formattedDegree = HTMLschoolDates.replace
+      var formattedDegree = HTMLschoolDegree.replace
         ("%data%", education.schools[school].degree);
       $(".education-entry:last").append(formattedDegree);
 
