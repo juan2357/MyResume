@@ -85,56 +85,56 @@
       {
         "employer": "Wyncode Academy",
         "title": "Full-Stack Web Developer",
-          "location": ,
-        "dates": "2016-05-01",
-        "description": "- Pitch Day Winner.\n- Developed code using Ruby, Rails, Javascript, jQuery, HTML and CSS. \n- Executed code using Github, Sinatra, Materialize, and Bootstrap.\n- Collaborated with classmates to build complex applications.\n- Built and created a sensor application with Ruby on Rails, that utilized a Raspberry Pi to load temperature, humidity, and other types of data.",
+        "location": "Fort Lauderdale, FL",
+        "dates": "2016",
+        "description": "- Pitch Day Winner. <br> - Developed code using Ruby, Rails, Javascript, jQuery, HTML and CSS. <br> - Executed code using Github, Sinatra, Materialize, and Bootstrap.<br>- Collaborated with classmates to build complex applications.<br>- Built and created a sensor application with Ruby on Rails, that utilized a Raspberry Pi to load temperature, humidity, and other types of data.",
       },
       {
         "employer": "Somerset Academy Charter Schools",
         "title": "Mathematics & Science Teacher",
-          "location": ,
-        "dates": "2014-08-01",
-        "description": "- Facilitated Math and Science Instruction.\n- Effectively utilized positive reinforcement classroom management techniques.\n- Adapted lessons to accommodate all students’ abilities.\n- Accommodated instruction to assist ESE and ESOL students.\n- Created and providing enrichment activities to gifted high level learners."
+        "location": "North Lauderdale, FL",
+        "dates": "2014-2016",
+        "description": "- Facilitated Math and Science Instruction.<br>- Effectively utilized positive reinforcement classroom management techniques.<br>- Adapted lessons to accommodate all students’ abilities.<br>- Accommodated instruction to assist ESE and ESOL students.<br>- Created and providing enrichment activities to gifted high level learners."
       },
       {
         "employer": "Palm Beach County School District",
         "title": "Elementary School Teacher",
-          "location": ,
-        "dates": "2013-08-01",
-        "description": "- Effectively utilized C.H.A.M.P.S classroom management techniques.\n- Effectively utilized Reader’s and Writer’s Workshop during instruction.\n- Adapted lessons to accommodate all students’ abilities.\n- Accommodated instruction to assist ESE and ESOL students\n- Created and providing enrichment activities to gifted high level learners."
+        "location": "West Palm Beach, FL",
+        "dates": "2013-2014",
+        "description": "- Effectively utilized C.H.A.M.P.S classroom management techniques.<br>- Effectively utilized Reader’s and Writer’s Workshop during instruction.<br>- Adapted lessons to accommodate all students’ abilities.<br>- Accommodated instruction to assist ESE and ESOL students<br>- Created and providing enrichment activities to gifted high level learners."
       },
       {
         "employer": "Charter Schools USA",
         "title": "Elementary School Teacher",
-          "location": ,
-        "dates": "2012-08-01",
-        "description": "- Served as the Science Fair Coordinator.\n- Served as the Science, Technology, Engineering, Math Club Faculty Advisor. \n- Served on grant committee.\n- Effectively utilized C.H.A.M.P.S classroom management techniques.\n- Adapted lessons to accommodate ESE students.\n- Accommodated instruction to assist low level learners\n- Created and providing enrichment activities to gifted high level learners."
+        "location": "Fort Lauderdale, FL",
+        "dates": "2012",
+        "description": "- Served as the Science Fair Coordinator.<br>- Served as the Science, Technology, Engineering, Math Club Faculty Advisor. <br>- Served on grant committee.<br>- Effectively utilized C.H.A.M.P.S classroom management techniques.<br>- Adapted lessons to accommodate ESE students.<br>- Accommodated instruction to assist low level learners<br>- Created and providing enrichment activities to gifted high level learners."
       },
       {
         "employer": "United States Marine Corps",
         "title": "Lance Corporal",
-          "location": ,
-        "dates": "1995-08-01",
-        "description": "- Honorably Discharged.\n- Validated request for table of organization and equipment change.\n- Challenged inaccurate allowance data.\n- Supervised maintenance of the property control document. \n- Maintained edit error and exception listing."
+        "location": "United States",
+        "dates": "1995-1999",
+        "description": "- Honorably Discharged.<br>- Validated request for table of organization and equipment change.<br>- Challenged inaccurate allowance data.<br>- Supervised maintenance of the property control document. <br>- Maintained edit error and exception listing."
       }
     ]
-  },
+  };
 
-  var projects = {
-    "projects": [
-      "title": ,
-      "dates": ,
-      "description": ,
-      "images":
-    ]
-  },
+  // var projects = {
+  //   "projects": [
+  //     "title": ,
+  //     "dates": ,
+  //     "description": ,
+  //     "images":
+  //   ]
+  // };
 
   var bio = {
     "name": "Juan Perez",
     "role": "Full Stack Web Developer",
     "welcome": "Welcome to my resume page",
     "contacts": {
-      "cell": "754-300-6399",
+      "mobile": "754-300-6399",
       "email": "juanfperez@me.com",
       "Github": "juan2357",
       "linkedin": "in/JuanPerezFSWD"
@@ -149,51 +149,144 @@
       'JavaScript',
       'jQuery',
       'Sinatra',
-      'Bootstrap',
-      'Github'
+      'Bootstrap'
     ],
     "location": "Weston, Florida"
-  },
+  };
 
   var education = {
     "schools": [
       {
         "name": "Chapman University",
-        "location": "",
+        "location": "San Diego, CA",
         "degree": "Bachelor of Arts",
-        "major": ,
-        "dates": "2016-01-01"
-        "url":
+        "major": "Social Science",
+        "dates": "1999-2007"
+        // "url":
       },
       {
         "name": "Florida Atlantic University",
-        "location": "",
-        "degree": "Master of Education (M.Ed.)",
-        "major": ,
-        "dates": "2016-01-01"
-        "url":
+        "location": "Boca Raton, FL",
+        "degree": "Master's",
+        "major": "Elementary",
+        "dates": "2009-2012"
+        // "url":
       },
       {
         "name": "Florida Atlantic University",
-        "location": "",
-        "degree": "Bachelor of Science (B.S.)",
-        "major": ,
-        "dates": "2016-01-01"
-        "url":
+        "location": "Boca Raton, FL",
+        "degree": "Bachelor of Science",
+        "major": "Computer Science",
+        "dates": "2016-2018"
+        // "url":
       },
       {
         "name": "Wyncode Academy",
-        "location": "",
+        "location": "Fort Lauderdale, FL",
         "degree": "Certificate",
-        "major": ,
-        "dates": "2016-01-01"
-        "url":
+        "major": "Full Stack Web Development",
+        "dates": "2016"
+        // "url":
       }
     ],
-    "onlineCourses": [
-      "title": ,
-      "school": ,
-      "dates": ,
-      "url":
-    ]
-  },
+    // "onlineCourses": [
+    //   "title": ,
+    //   "school": ,
+    //   "dates": ,
+    //   "url":
+    // ]
+  };
+
+  var formattedName = HTMLheaderName.replace("%data%", bio.name);
+  $("#header").append(formattedName);
+  var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+  $("#header").append(formattedRole);
+
+
+
+  // for(contact in bio.contacts) {
+  //   $("#topContacts").append(HTMLcontactGeneric);
+  //
+  //   var formattedMobile = HTMLmobile.replace
+  //     ("%data%", bio.contacts[0]);
+  //   $(".flex-item:last").append(formattedMobile);
+  // };
+  // var formattedEmail = HTMLemail.replace
+  //   ("%data%", bio.contacts[contact].email);
+  // var formattedlinkedin = HTMLlinkedin.replace
+  //   ("%data%", bio.comtacts[contact].linkedin);
+  // var formatttedGitHub = HTMLgithub.replace
+  //   ("%data%", bio.contacts[contact].Github);
+
+
+
+  // if(bio.skills.length > 0) {
+  //   $("#header").append(HTMLskillsStart);
+  //
+  //   var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
+  //   $("#skills").append(formattedSkill);
+  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
+  //   $("#skills").append(formattedSkill);
+  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
+  //   $("#skills").append(formattedSkill);
+  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
+  //   $("#skills").append(formattedSkill);
+  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[4]);
+  //   $("#skills").append(formattedSkill);
+  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[5]);
+  //   $("#skills").append(formattedSkill);
+  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[6]);
+  //   $("#skills").append(formattedSkill);
+  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[7]);
+  //   $("#skills").append(formattedSkill);
+  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[8]);
+  //   $("#skills").append(formattedSkill);
+  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[9]);
+  //   $("#skills").append(formattedSkill);
+  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[10]);
+  // };
+
+  $("#header").append(HTMLskillsStart);
+  for (i = 0; i < bio.skills.length; i++) {
+
+    var formattedSkill = HTMLskills.replace("%data%", bio.skills[i]);
+    $("#skills").append(formattedSkill);
+  };
+
+function displayWork() {
+  for(job in work.jobs) {
+    $("#workExperience").append(HTMLworkStart);
+
+    var formattedEmployer = HTMLworkEmployer.replace
+      ("%data%", work.jobs[job].employer);
+    var formattedTitle = HTMLworkTitle.replace
+      ("%data%", work.jobs[job].title);
+
+    var formattedLocation = HTMLworkLocation.replace
+      ("%data%", work.jobs[job].location);
+    $(".work-entry:last").append(formattedLocation);
+
+    var formattedEmployerTitle = formattedEmployer + formattedTitle;
+    $(".work-entry:last").append(formattedEmployerTitle);
+
+    var formattedDates = HTMLworkDates.replace
+      ("%data%", work.jobs[job].dates);
+    $(".work-entry:last").append(formattedDates);
+
+    var formattedDescription = HTMLworkDescription.replace
+      ("%data%", work.jobs[job].description);
+    $(".work-entry:last").append(formattedDescription);
+
+
+  }
+};
+    displayWork();
+
+
+    $(document).click(function(loc) {
+      var x = loc.pageX;
+      var y = loc.pageY;
+
+
+      console.log(loc);
+    });
