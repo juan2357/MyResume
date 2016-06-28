@@ -83,12 +83,10 @@ var bio = {
   "name": "Juan Perez",
   "role": "Full Stack Web Developer",
   "welcome": "Welcome to my resume page",
-  "contacts": {
-    "mobile": "754-300-6399",
-    "email": "juanfperez@me.com",
-    "Github": "juan2357",
-    "linkedin": "in/JuanPerezFSWD"
-    },
+  "mobile": "754-300-6399",
+  "email": "juanfperez@me.com",
+  "Github": "juan2357",
+  "linkedin": "in/JuanPerezFSWD",
   "skills": [
     'Web Development',
     'Responsive Web Design',
@@ -109,6 +107,20 @@ $("#header").append(formattedName);
 
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 $("#header").append(formattedRole);
+
+var formattedMobile = HTMLmobile.replace("%data%", bio.mobile);
+$("#topContacts").append(formattedMobile);
+
+var formattedEmail = HTMLemail.replace("%data%", bio.email);
+$("#topContacts").append(formattedEmail);
+
+var formattedlinkedin = HTMLlinkedin.replace("%data%", bio.linkedin);
+$("#topContacts").append(formattedlinkedin);
+
+var formatttedGitHub = HTMLGitHub.replace("%data%", bio.Github);
+$("#topContacts").append(formatttedGitHub);
+
+
 
 function inName(name) {
   name = name.trim().split(" ");
@@ -152,6 +164,21 @@ for (i = 0; i < bio.skills.length; i++) {
   var formattedSkill = HTMLskills.replace("%data%", bio.skills[i]);
   $("#skills").append(formattedSkill);
 };
+
+$("#topContacts").append(HTMLcontactGeneric);
+function displayContacts() {
+  $("#topContacts").append(HTMLcontactGeneric);
+  var formattedMobile = HTMLmobile.replace
+    ("%data%", bio.contacts[0]);
+  $(".flex-item:last").append(formattedMobile);
+  };
+
+
+// for (i = 0; i < bio.contacts.length; i++) {
+//   array[i]
+// }
+
+
 
 var work = {
   "jobs": [
@@ -322,17 +349,6 @@ var education = {
 
 
 
-  //   $("#topContacts").append(HTMLcontactGeneric);
-  //   var formattedMobile = HTMLmobile.replace
-  //     ("%data%", bio.contacts[0]);
-  //   $(".flex-item:last").append(formattedMobile);
-  // };
-  // var formattedEmail = HTMLemail.replace
-  //   ("%data%", bio.contacts[contact].email);
-  // var formattedlinkedin = HTMLlinkedin.replace
-  //   ("%data%", bio.comtacts[contact].linkedin);
-  // var formatttedGitHub = HTMLgithub.replace
-  //   ("%data%", bio.contacts[contact].Github);
 
 
 
