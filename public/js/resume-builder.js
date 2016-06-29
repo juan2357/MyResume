@@ -253,25 +253,28 @@
         "dates": "June 2016",
         "description": "Sensoree is a web application to help anyone build a network of smart sensors using devices such as Raspberry Pi or Arduino. The service will inspire students of all ages to use these cheap computers to build the Internet of Things by providing an interface where they can send sensor data, view it, get notifications, and share it with others. Through Sensoree, students will be able to get instructions, sample code, a web API, sensor data storage, and an admin portal to interact with their data and their device. Initial support for basic sensors such as temperature, motion,and distance sensors can teach students to build and interact with other web services, receive notifications, and share graphic representations of their data with others.",
         "images": ["img/sensoree.png"],
-        "url": "sensoree.net"
+        "url": "http://sensoree.net"
       },
       {
         "title": "Brighton Times",
         "dates": "June 2016",
         "description": "A website refactored to be reponsive to multiple media queries.",
-        "images": ["img/dog.jpg"]
+        "images": ["img/dog.jpg"],
+        "url": "https://github.com/juan2357/rwdf"
       },
       {
         "title": "Animal Traind Card",
         "dates": "June 2016",
         "description": "HTML rendering of a mock up image.",
-        "images": ["img/falcon.jpg"]
+        "images": ["img/falcon.jpg"],
+        "url": "https://github.com/juan2357/animal_trading_card"
       },
       {
         "title": "My Portfolio Site",
         "dates": "June 2016",
         "description": "A responsive website displaying multiple projects.",
-        "images": ["img/egyptian-pyramids.jpeg"]
+        "images": ["img/egyptian-pyramids.jpeg"],
+        "url": "https://github.com/juan2357/Build-a-Portfolio-Site"
       }
     ]
   };
@@ -285,6 +288,7 @@
       var formattedTitle = HTMLprojectTitle.replace
         ("%data%", projects.projects[project].title);
 
+
       var formattedDates = HTMLprojectDates.replace
         ("%data%", projects.projects[project].dates);
       $(".project-entry:last").append(formattedTitle);
@@ -297,9 +301,10 @@
         ("%data%", projects.projects[project].images);
       $(".project-entry:last").append(formattedImage);
 
-      var formattedURL = HTMLschoolName.replace
-        ("#", projects.projects[project].url);
-      $(".project-entry:last").append(formattedURL);
+      for (url in projects.projects) {
+        $("a").attr("href", projects.projects[url]["url"]);
+
+      }
     }
   };
 
