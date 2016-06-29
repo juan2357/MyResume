@@ -83,7 +83,7 @@
     "name": "Juan Perez",
     "role": "Full Stack Web Developer",
     "welcome": "Welcome to my resume page. Here is a culmination of my skills knowledge and expertise.",
-              "(UNDER CONSTRUCTION, 6/28/16; UPDATE 6/29: Projects have links)",
+              "(UNDER CONSTRUCTION, 6/28/16; UPDATE 6/29: Projects have links)"
     "mobile": "754-300-6399",
     "email": "juanfperez@me.com",
     "Github": "juan2357",
