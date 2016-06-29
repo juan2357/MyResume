@@ -82,7 +82,7 @@
   var bio = {
     "name": "Juan Perez",
     "role": "Full Stack Web Developer",
-    "welcome": "Welcome to my resume page. Here is a culmination of my skills knowledge and expertise. (UNDER CONSTRUCTION, 6/28/16",
+    "welcome": "Welcome to my resume page. Here is a culmination of my skills knowledge and expertise. (UNDER CONSTRUCTION, 6/28/16)[UPDATE 6/29: links to project available ] ",
     "mobile": "754-300-6399",
     "email": "juanfperez@me.com",
     "Github": "juan2357",
@@ -251,7 +251,7 @@
       {
         "title": "Sensoree",
         "dates": "June 2016",
-        "description": "Sensoree is a web application to help anyone build a network of smart sensors using devices such as Raspberry Pi or Arduino. The service will inspire students of all ages to use these cheap computers to build the Internet of Things by providing an interface where they can send sensor data, view it, get notifications, and share it with others. Through Sensoree, students will be able to get instructions, sample code, a web API, sensor data storage, and an admin portal to interact with their data and their device. Initial support for basic sensors such as temperature, motion,and distance sensors can teach students to build and interact with other web services, receive notifications, and share graphic representations of their data with others.",
+        "description": "Sensoree is a web application to help anyone build a network of smart sensors using devices such as Raspberry Pi or Arduino. It will provide an interface where they can send sensor data, view it, get notifications, sample code, a web API, sensor data storage, and an admin portal to interact with their data and their device. Initial support for basic sensors such as temperature, motion,and distance sensors can teach students to build and interact with other web services, receive notifications, and share graphic representations of their data with others.",
         "images": ["img/sensoree.png"],
         "url": "http://sensoree.net"
       },
@@ -288,7 +288,6 @@
       var formattedTitle = HTMLprojectTitle.replace
         ("%data%", projects.projects[project].title);
 
-
       var formattedDates = HTMLprojectDates.replace
         ("%data%", projects.projects[project].dates);
       $(".project-entry:last").append(formattedTitle);
@@ -301,11 +300,8 @@
         ("%data%", projects.projects[project].images);
       $(".project-entry:last").append(formattedImage);
 
-      for (url in projects.projects) {
-        $("a").attr("href", projects.projects[url]["url"]);
-
+      $("a:last").attr("href", projects.projects[project]["url"]);
       }
-    }
   };
 
   displayProjects();
