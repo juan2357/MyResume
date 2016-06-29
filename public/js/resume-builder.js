@@ -88,7 +88,7 @@
     "email": "juanfperez@me.com",
     "Github": "juan2357",
     "linkedin": "in/JuanPerezFSWD",
-    "twitter": "JuanBluePerez",
+    "twitter": "@JuanBluePerez",
     "skills": [
       'Web Development',
       'Responsive Web Design',
