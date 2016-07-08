@@ -225,7 +225,7 @@
       {
         "employer": "United States Marine Corps",
         "title": "Lance Corporal",
-        "location": "United States",
+        "location": "Parris Island, SC",
         "dates": "1995-1999",
         "description": "- Honorably Discharged.<br>- Validated request for table of organization and equipment change.<br>- Challenged inaccurate allowance data.<br>- Supervised maintenance of the property control document. <br>- Maintained edit error and exception listing."
       }
@@ -384,12 +384,14 @@
 
   displayEducation();
 
-  $(document).click(function(loc) {
-    var x = loc.pageX;
-    var y = loc.pageY;
+$("#mapDiv").append(googleMap);
 
-    logClicks(x, y);
-  })
+  // $(document).click(function(loc) {
+  //   var x = loc.pageX;
+  //   var y = loc.pageY;
+  //
+  //   logClicks(x, y);
+  // })
 
 
       //

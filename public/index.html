@@ -7,6 +7,7 @@
     <script src="js/jQuery.js"></script>
     <script src="js/helper.js"></script>
     <meta name="viewport" content="width=device-width">
+     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
   </head>
   <body>
     <div id="main">
@@ -22,6 +23,9 @@
       </div>
       <div id="education" class="gray">
         <h2>Education</h2>
+      </div>
+      <div id="mapDiv">
+        <h2>Where I've Lived and Worked</h2>
       </div>
       <div id="lets-connect" class="dark-gray">
         <h2 class="orange center-text">Let's Connect</h2>
@@ -49,6 +53,9 @@
     }
     if(document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('lets-connect').style.display = 'none';
+    }
+    if(document.getElementById('map') === null) {
+      document.getElementById('mapDiv').style.display = 'none';
     }
   </script>
 </html>
