@@ -122,18 +122,32 @@
   var formattedMobile = HTMLmobile.replace("%data%", bio.mobile);
   $("#footerContacts").append(formattedMobile);
 
+  var contactLinks = $("#footerContacts").find("a:last");
+  contactLinks.attr("href", "tel:" + bio.mobile);
+
   var formattedEmail = HTMLemail.replace("%data%", bio.email);
   $("#footerContacts").append(formattedEmail);
+
+  var contactLinks = $("#footerContacts").find("a:last");
+  contactLinks.attr("href", "mailto:" + bio.email);
 
   var formattedlinkedin = HTMLlinkedin.replace("%data%", bio.linkedin);
   $("#footerContacts").append(formattedlinkedin);
 
+  var contactLinks = $("#footerContacts").find("a:last");
+  contactLinks.attr("href", "http://linkedin.com/" + bio.linkedin);
+
   var formatttedGitHub = HTMLGitHub.replace("%data%", bio.Github);
   $("#footerContacts").append(formatttedGitHub);
+
+  var contactLinks = $("#footerContacts").find("a:last");
+  contactLinks.attr("href", "http://Github.com/" + bio.Github);
 
   var formatttedTwitter = HTMLtwitter.replace("%data%", bio.twitter);
   $("#footerContacts").append(formatttedTwitter);
 
+  var contactLinks = $("#footerContacts").find("a:last");
+  contactLinks.attr("href", "http://twitter.com/" + bio.twitter);
 
   function inName(name) {
     name = name.trim().split(" ");
@@ -300,7 +314,8 @@
         ("%data%", projects.projects[project].images);
       $(".project-entry:last").append(formattedImage);
 
-      $("a:last").attr("href", projects.projects[project]["url"]);
+      var projectLinks = $("#projects").find("a:last");
+      projectLinks.attr("href", projects.projects[project]["url"]);
       }
   };
 
