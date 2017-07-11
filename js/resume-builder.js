@@ -40,7 +40,7 @@
   //     },
   //     "welcome": "Welcome to my resume page",
   //     "skills": skills,
-  //     "pic": "img/profile.png"
+  //     "pic": "../img/profile.png"
   //   };
   //
   //   $("#name").append(bio.name);
@@ -97,10 +97,11 @@
       'CSS3',
       'JavaScript',
       'jQuery',
+      'Python',
       'Sinatra',
       'Bootstrap'
     ],
-    "biopic": "img/profile.png",
+    "biopic": "../img/profile.png",
     "location": "Weston, Florida"
   };
 
@@ -195,11 +196,25 @@
   var work = {
     "jobs": [
       {
+        "employer": "Triology/University of Central Florida",
+        "title": "Teaching Assistant",
+        "location": "Fort Lauderdale, FL",
+        "dates": "February 2017-Preset",
+        "description": "- Evaluated and graded examinations, assignments, and record grades.<br>- Informed students of the procedures for completing and submitting class work.<br>- Returned assignments to students in accordance with established deadlines.<br>- Mentored students who needed additional instruction.",
+      },
+      {
         "employer": "Wyncode Academy",
         "title": "Full-Stack Web Developer",
         "location": "Fort Lauderdale, FL",
         "dates": "Spring 2016",
         "description": "- Pitch Day Winner. <br> - Developed code using Ruby, Rails, Javascript, jQuery, HTML and CSS. <br> - Executed code using Github, Sinatra, Materialize, and Bootstrap.<br>- Collaborated with classmates to build complex applications.<br>- Built and created a sensor application with Ruby on Rails, that utilized a Raspberry Pi to load temperature, humidity, and other types of data.",
+      },
+      {
+        "employer": "Franklin Academy Charter Schools",
+        "title": "Mathematics & Science Teacher",
+        "location": "Cooper City, FL",
+        "dates": "2016-2017",
+        "description": "- Organized and led a computer science club.<br>- Facilitated Math and Science Instruction.<br>- Effectively utilized positive reinforcement classroom management techniques.<br>- Adapted lessons to accommodate all students’ abilities.<br>- Accommodated instruction to assist ESE and ESOL students.<br>- Created and providing enrichment activities to gifted high level learners."
       },
       {
         "employer": "Somerset Academy Charter Schools",
@@ -266,28 +281,28 @@
         "title": "Sensoree",
         "dates": "June 2016",
         "description": "Sensoree is a web application to help anyone build a network of smart sensors using devices such as Raspberry Pi or Arduino. It will provide an interface where they can send sensor data, view it, get notifications, sample code, a web API, sensor data storage, and an admin portal to interact with their data and their device. Initial support for basic sensors such as temperature, motion,and distance sensors can teach students to build and interact with other web services, receive notifications, and share graphic representations of their data with others.",
-        "images": ["img/sensoree.png"],
+        "images": ["../img/sensoree.png"],
         "url": "http://sensoree.net"
       },
       {
         "title": "Brighton Times",
         "dates": "June 2016",
         "description": "A website refactored to be reponsive to multiple media queries.",
-        "images": ["img/dog.jpg"],
+        "images": ["../img/dog.jpg"],
         "url": "https://github.com/juan2357/rwdf"
       },
       {
         "title": "Animal Traind Card",
         "dates": "June 2016",
         "description": "HTML rendering of a mock up image.",
-        "images": ["img/falcon.jpg"],
+        "images": ["../img/falcon.jpg"],
         "url": "https://github.com/juan2357/animal_trading_card"
       },
       {
         "title": "My Portfolio Site",
         "dates": "June 2016",
         "description": "A responsive website displaying multiple projects.",
-        "images": ["img/egyptian-pyramids.jpeg"],
+        "images": ["../img/egyptian-pyramids.jpeg"],
         "url": "https://github.com/juan2357/Build-a-Portfolio-Site"
       }
     ]
