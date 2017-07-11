@@ -40,7 +40,7 @@
   //     },
   //     "welcome": "Welcome to my resume page",
   //     "skills": skills,
-  //     "pic": "../img/profile.png"
+  //     "pic": "img/profile.png"
   //   };
   //
   //   $("#name").append(bio.name);
@@ -82,7 +82,7 @@
   var bio = {
     "name": "Juan Perez",
     "role": "Full Stack Web Developer",
-    "welcome": "Welcome to my resume page. Here is a culmination of my skills knowledge and expertise. (UNDER CONSTRUCTION, 6/28/16)[UPDATE 6/29: links to project available, UPDATE 7/8: Contact links and googleMaps] ",
+    "welcome": "Welcome to my resume page. Here is a culmination of my skills knowledge and expertise. 
     "mobile": "754-300-6399",
     "email": "juanfperez@me.com",
     "Github": "juan2357",
@@ -101,7 +101,7 @@
       'Sinatra',
       'Bootstrap'
     ],
-    "biopic": "../img/profile.png",
+    "biopic": "img/profile.png",
     "location": "Weston, Florida"
   };
 
@@ -281,28 +281,28 @@
         "title": "Sensoree",
         "dates": "June 2016",
         "description": "Sensoree is a web application to help anyone build a network of smart sensors using devices such as Raspberry Pi or Arduino. It will provide an interface where they can send sensor data, view it, get notifications, sample code, a web API, sensor data storage, and an admin portal to interact with their data and their device. Initial support for basic sensors such as temperature, motion,and distance sensors can teach students to build and interact with other web services, receive notifications, and share graphic representations of their data with others.",
-        "images": ["../img/sensoree.png"],
+        "images": ["img/sensoree.png"],
         "url": "http://sensoree.net"
       },
       {
         "title": "Brighton Times",
         "dates": "June 2016",
         "description": "A website refactored to be reponsive to multiple media queries.",
-        "images": ["../img/dog.jpg"],
+        "images": ["img/dog.jpg"],
         "url": "https://github.com/juan2357/rwdf"
       },
       {
         "title": "Animal Traind Card",
         "dates": "June 2016",
         "description": "HTML rendering of a mock up image.",
-        "images": ["../img/falcon.jpg"],
+        "images": ["img/falcon.jpg"],
         "url": "https://github.com/juan2357/animal_trading_card"
       },
       {
         "title": "My Portfolio Site",
         "dates": "June 2016",
         "description": "A responsive website displaying multiple projects.",
-        "images": ["../img/egyptian-pyramids.jpeg"],
+        "images": ["img/egyptian-pyramids.jpeg"],
         "url": "https://github.com/juan2357/Build-a-Portfolio-Site"
       }
     ]
