@@ -1,88 +1,7 @@
-  // $( document ).ready(function() {
-  //
-  //
-  //   // var awesomeThoughts = "I am Juan and I am AWESOME!"
-  //   // console.log(awesomeThoughts);
-  //   //
-  //   // var email = "juanperez@icloud.com";
-  //   // var newEmail = email.replace("icloud", "me");
-  //   // console.log(email);
-  //   // console.log(newEmail);
-  //   //
-  //   // var funThoughts = awesomeThoughts.replace("AWESOME", "FUN");
-  //   // $("#main").append(funThoughts);
-  //   //
-  //   // var formattedName = "Juan Perez";
-  //   // var formattedRole = "Full Stack Web Developer";
-  //   // $("#name").append(formattedName);
-  //   // $("#role").append(formattedRole);
-  //
-  //   var skills = ['Web Development',
-  //                 'Responsive Web Design',
-  //                 'Ruby',
-  //                 'Ruby on Rails',
-  //                 'HTML5',
-  //                 'CSS3',
-  //                 'JavaScript',
-  //                 'jQuery',
-  //                 'Sinatra',
-  //                 'Bootstrap',
-  //                 'Github']
-  //
-  //   // object literal
-  //   var bio = {
-  //     "name": "Juan Perez",
-  //     "role": "Full Stack Web Developer",
-  //     "contacts": {
-  //       "cell": "754-300-6399",
-  //       "email": "juanfperez@me.com",
-  //       "Github": "juan2357",
-  //     },
-  //     "welcome": "Welcome to my resume page",
-  //     "skills": skills,
-  //     "pic": "img/profile.png"
-  //   };
-  //
-  //   $("#name").append(bio.name);
-  //   $("#role").append(bio.role);
-  //
-  // // Dot Notation
-  //   var work = {};
-  //     work.title = "Freelance Web Developer";
-  //     work.employer = "self";
-  //     work.years = "0.1";
-  //     work.city = "Weston";
-  //   // bracket Notation
-  //   var education = {};
-  //   education["school"] = "FAU";
-  //   education["city"] = "Boca Raton";
-  //   education["years"] = "2016-2018";
-  //
-  //   // $("#work").append(work["title"]);
-  //   // $("#education").append(education.school);
-  //
-  //   // JSON
-  //   var education = {
-  //     "schools": [
-  //       {
-  //         "name": "FAU",
-  //         "city": "Boca Raton",
-  //         "major": "Computer Science"
-  //       },
-  //       {
-  //         "name": "Udacity",
-  //         "city": "Weston",
-  //         "major": "FEND"
-  //       }
-  //     ]
-  //   }
-  //
-  //
-  // });
   var bio = {
     "name": "Juan Perez",
     "role": "Full Stack Web Developer",
-    "welcome": "Welcome to my resume page. Here is a culmination of my skills knowledge and expertise.",
+    "welcome": "Welcome to my resume page. Here is a culmination of my skills, knowledge, and expertise.",
     "mobile": "754-300-6399",
     "email": "juanfperez@me.com",
     "Github": "juan2357",
@@ -161,31 +80,6 @@
 
   $("#main").append(internationalizeButton);
 
-  // if(bio.skills.length > 0) {
-  //   $("#header").append(HTMLskillsStart);
-  //
-  //   var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
-  //   $("#skills").append(formattedSkill);
-  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
-  //   $("#skills").append(formattedSkill);
-  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
-  //   $("#skills").append(formattedSkill);
-  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
-  //   $("#skills").append(formattedSkill);
-  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[4]);
-  //   $("#skills").append(formattedSkill);
-  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[5]);
-  //   $("#skills").append(formattedSkill);
-  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[6]);
-  //   $("#skills").append(formattedSkill);
-  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[7]);
-  //   $("#skills").append(formattedSkill);
-  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[8]);
-  //   $("#skills").append(formattedSkill);
-  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[9]);
-  //   $("#skills").append(formattedSkill);
-  //   formattedSkill = HTMLskills.replace("%data%", bio.skills[10]);
-  // };
   $("#header").append(HTMLskillsStart);
   for (i = 0; i < bio.skills.length; i++) {
 
@@ -400,24 +294,3 @@
   displayEducation();
 
 $("#mapDiv").append(googleMap);
-
-  // $(document).click(function(loc) {
-  //   var x = loc.pageX;
-  //   var y = loc.pageY;
-  //
-  //   logClicks(x, y);
-  // })
-
-
-      //
-      // function locationizer(work_obj) {
-      //   var locationArray = [];
-      //
-      //   for (job in work_obj.jobs) {
-      //     var newlocation = work_obj.jobs[job].location;
-      //     locationArray.push(newlocation);
-      //   }
-      //   return locationArray;
-      // };
-      //
-      // console.log(locationizer(work));
